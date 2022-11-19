@@ -1,0 +1,147 @@
+:root {
+    --primary-colour:#28a745;
+    --secondary-colour:#0284d0;
+    --dark-colour:#333;
+    --light-colour:#fff;
+    --hover-color: rgba(196, 223, 170, 0.8);
+
+}
+.text-primary {
+    color: var(--primary-colour);
+
+}
+.form-group  {
+    width: 100%;
+    flex-direction: column;
+    
+}
+.btn-light {
+    color: var(--light-colour);
+}
+
+.form-group input {
+    width: 100%;
+    height: 40px;
+}
+
+
+.flex-columns .row {
+    display: flex;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+   
+}
+.flex-items> div {
+    padding: 30px;
+}
+
+.icons i {
+    margin-bottom: 15px;
+    background-color:var(--primary-colour);
+    color: var(--light-colour);
+    padding: 1rem;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4rem;
+    text-align: center;
+
+}
+.icons h2 {
+    margin-bottom: 8px;
+    font-weight: 700px;
+
+}
+.box:hover {
+    background-color: var(--hover-color);
+
+}
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+}
+.reverse .row {
+    flex-direction: row-reverse;
+}
+.bg-secondary {
+    background-color: var(--secondary-colour);
+    color:var(--light-colour);
+}
+.blog {
+    padding: 10px 0;
+}
+
+.flex-columns .columns {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--light-colour);
+}
+
+.bg-primary {
+    background-color: var(--primary-colour);
+    color: var(--light-colour);
+}
+.flex-columns h2 {
+    font-size: 40px;
+    font-weight: 200;
+}
+.flex-columns h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+.flex-columns p {
+    margin: 20px 0px;
+}
+.flex-columns .column-2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-columns .columns .column-1,
+.flex-columns .columns .column-2 {
+  height: 100%;
+}
+.form-group textarea {
+    width: 100%;
+
+}
+.bg-form {
+    background-color: #f4f4f4;
+}
+
+@media ((max-width:391px)) {
+    .hero .content h1 {
+    
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--light-colour);
+    
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
